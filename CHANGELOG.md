@@ -1,3 +1,27 @@
+# [2024.2.0](https://github.com/cadecode/uni-boot-cloud/compare/2024.1.0...2024.2.0) (2024-08-03)
+
+### Bug Fixes
+
+* 策略执行器中先判断类型，再判断 supports
+  方法 ([df8bb93](https://github.com/cadecode/uni-boot-cloud/commit/df8bb93ea28e0592dd34fc7ae5dd68a10cac9464))
+* 解决 mybatis plus 插件和 pageHelper
+  插件顺序问题 ([eaf1479](https://github.com/cadecode/uni-boot-cloud/commit/eaf14797a70e634e0c27f7f7f2ed3aa21f79cf61))
+* 解决 RabbitMQ 多数据源声明同名交换机判断 delay 时 toMap
+  冲突 ([c09315c](https://github.com/cadecode/uni-boot-cloud/commit/c09315c24e2162f028b33db467b52b7943c6a59a))
+* 解决同名队列和交换机声明多个绑定时 bean
+  冲突 ([d0002da](https://github.com/cadecode/uni-boot-cloud/commit/d0002da70a573e72dcb6f9eb97009a49cb8ed6a6))
+* SysRoleMapper Oracle 下 mapper
+  字段缺少 ([2017e66](https://github.com/cadecode/uni-boot-cloud/commit/2017e66c007efe5521ef157ff3152fba60b1a49b))
+
+### Features
+
+* 登录和注销时操作客户端
+  cookie ([1fc3432](https://github.com/cadecode/uni-boot-cloud/commit/1fc3432ef68d679d15639170ef12693bb34c74dd))
+*
+优化顶级异常，支持异常信息字符串模板 ([5d7fef2](https://github.com/cadecode/uni-boot-cloud/commit/5d7fef214ffec86882969bf50728a0f26b1a1871))
+* 支持配置单个账号最大 token 数量（默认 1
+  即不支持重复登录） ([a7c3dba](https://github.com/cadecode/uni-boot-cloud/commit/a7c3dbaf0e920954b379331927c9675cff52c058))
+
 # [2024.1.0](https://github.com/cadecode/uni-boot-cloud/compare/2023.1.3...2024.1.0) (2024-05-27)
 
 ### Bug Fixes

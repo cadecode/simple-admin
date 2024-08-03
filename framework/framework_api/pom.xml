@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.github.cadecode</groupId>
         <artifactId>uni-boot-framework</artifactId>
-        <version>2024.1.0</version>
+        <version>2024.2.0</version>
     </parent>
 
     <artifactId>uni-boot-framework-api</artifactId>
